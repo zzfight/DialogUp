@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_icon1"
+        android:layout_width="50dp"
+        android:layout_height="50dp" 
+        android:scaleType="centerInside"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:background="@drawable/list_gray_item"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="搜索企业"
+        android:textSize="15dp" />/>
+</LinearLayout>
